@@ -14,7 +14,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1> Đăng nhập</h1>
+      <h1>Login</h1>
       <div className="card">
 
         <h2>Tên tài khoản <input type="text" className='login' /> </h2>
