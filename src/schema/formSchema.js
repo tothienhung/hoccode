@@ -16,4 +16,8 @@ export const registerSchema = yup.object().shape({
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9!@#$%^&*()_+|~=\`{}[\]:";'<>?,./\\]).+$/,
       "Mật khẩu phải chứa ít nhất một chữ hoa, một chữ thường và một số hoặc ký tự đặc biệt"
     ),
+  email: yup
+    .string()
+    .email('Địa chỉ email không hợp lệ').required('Vui lòng nhập địa chỉ email'),
+
 });
